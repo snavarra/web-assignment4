@@ -4,7 +4,7 @@
 *  No part of this assignment has been copied manually or electronically from any other source 
 *  (including web sites) or distributed to other students. 
 *  
-*  Name: Sherwin Navarra   Student ID: 121189229       Date: 2023-06-15
+*  Name: Sherwin Navarra   Student ID: 121189229       Date: 2023-07-07
 * 
 ********************************************************************************/ 
 
@@ -92,7 +92,7 @@ app.get("/student/:num", (req,res)=>{
     });
 });
 
-app.get("/student", (req,res)=>{
+app.get("/students", (req,res)=>{
     var courses = req.query.course;
     collegeData.getAllStudents()
     .then((students)=>{
