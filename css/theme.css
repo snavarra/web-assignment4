@@ -17,8 +17,8 @@ table, th, td, .center-align {
 }
 
 body {
-    background: rgb(254, 255, 229);
-background: linear-gradient(90deg, rgb(255, 255, 249) 0%, rgb(130, 130, 130) 56%, rgba(0,212,255,1) 100%);
+    background: rgb(199, 194, 194);
+background: linear-gradient(90deg, rgb(199, 194, 194) 0%, rgb(254, 253, 246) 56%, rgba(0,212,255,1) 100%);
 }
 
 .acadInfo{
