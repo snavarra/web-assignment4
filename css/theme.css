@@ -1,6 +1,6 @@
 /* "Table 1" Section */
 table, th, td, .center-align {
-    border: 1px solid black;
+    border: 3px solid black;
     border-collapse: collapse;
     text-align: center;
     /*vertical-align: middle*/
