@@ -24,7 +24,7 @@ app.get('/students/add', (req, res)=>{
 app.post("/students/add", (req, res) => {
     collegeData.addStudent(req.body)
     .then(() => {
-        res.redirect("/student");
+        res.redirect("/students");
     })
     .catch((error)=>{
         console.error(error);
