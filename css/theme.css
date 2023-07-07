@@ -1,6 +1,6 @@
 /* "Table 1" Section */
 table, th, td, .center-align {
-    border: 3px solid black;
+    border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
     /*vertical-align: middle*/
@@ -16,15 +16,19 @@ table, th, td, .center-align {
     height: 100px;
 }
 
-body {
+body
+{
+    background-image: linear-gradient(rgb(147, 147, 147), rgb(252, 252, 238));
+  }
+/*{
     background: rgb(199, 194, 194);
 background: linear-gradient(90deg, rgb(199, 194, 194) 0%, rgb(254, 253, 246) 56%, rgba(199, 194, 194) 100%);
-}
+}*/
 
 .acadInfo{
     margin-left: 105px;
 }
 
 .w3-class{
-    margin-left: 200px !important;
+    margin-left: 94px !important;
 }
