@@ -17,7 +17,7 @@ table, th, td, .center-align {
 }
 
 body {
-    background: rgb(152,255,228);
+    background: rgb(254, 255, 229);
 background: linear-gradient(90deg, rgb(255, 255, 249) 0%, rgb(130, 130, 130) 56%, rgba(0,212,255,1) 100%);
 }
 
